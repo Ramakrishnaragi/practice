@@ -3,6 +3,6 @@ resource "aws_instance" "test" {
     instance_type = "t2.micro"
     key_name = "mumbai"
 tags={
-    Name="dev-1"
+    Name="practice"
     }
 }
